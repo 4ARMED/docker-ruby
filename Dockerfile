@@ -19,9 +19,9 @@ RUN apt-get -yqq update && apt-get install -yqq autoconf \
                          bison \
                          ruby
 
-ENV RUBY_MAJOR 2.3
-ENV RUBY_VERSION 2.3.4
-ENV RUBY_SHA256 98e18f17c933318d0e32fed3aea67e304f174d03170a38fd920c4fbe49fec0c3
+ENV RUBY_MAJOR 2.4
+ENV RUBY_VERSION 2.4.1
+ENV RUBY_SHA256 a330e10d5cb5e53b3a0078326c5731888bb55e32c4abfeb27d9e7f8e5d000250
 
 RUN mkdir -p /usr/src/ruby
 RUN cd /usr/src/ruby && \
